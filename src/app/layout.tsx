@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
+import 'primereact/resources/themes/bootstrap4-dark-blue/theme.css';
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
